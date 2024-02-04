@@ -67,5 +67,34 @@ public class Operatoren {
         System.out.println("a : " + a + "  b : " + b + "  c : " + c + "  d : " + d );
 
         // OUTPUT : a = 3 ; b = 4 ; c = 2 ; d = 0
+
+
+        // Frage 1:
+        int a = 5;
+        int b = 3;
+        int c = 8;
+        int result1 = ++a * b-- + c++;
+        System.out.println("Frage 1: " + result1);
+        // Frage 2:
+        int x = 12;
+        int y = 4;
+        int z = 2;
+        boolean result2 = x % y == 0 && (x / y > z || x % z == 0);
+        System.out.println("Frage 2: " + result2);
+        // Frage 3:
+        int m = 7;
+        int n = 4;
+        int o = 2;
+        int result3 = m * (n + o) - m / n;
+        System.out.println("Frage 3: " + result3);
+        // Frage 4:
+        boolean isMorning = true;
+        boolean isWeekend = false;
+        int temperature = 25;
+        boolean result4 = (isMorning && temperature < 30) || (isWeekend &&
+                temperature >= 25);
+        System.out.println("Frage 4: " + result4);
+
+
     }
 }
